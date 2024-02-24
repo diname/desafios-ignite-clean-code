@@ -1,0 +1,4 @@
+/*
+  Evite diminutivos
+  Evite nomes genéricos (data, response, list, args, params)
+*/
