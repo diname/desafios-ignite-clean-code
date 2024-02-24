@@ -1,4 +1,11 @@
-/*
-  Evite diminutivos
-  Evite nomes genéricos (data, response, list, args, params)
-*/
+Nomenclaturas de variáveis:
+  - Evite diminutivos
+  - Evite nomes genéricos (data, response, list, args, params)
+
+
+Booleanos: 
+  - Nomear variaveis booleanas como se fossem uma pergunta. (is, does, has)
+    Ex: const isUserOnMajority = true
+      --> Neste caso estamos validando se o usuário é maior de idade
+
+  - Evitar variaveis genéricas como (loading, disabled, data, fetching, list)
