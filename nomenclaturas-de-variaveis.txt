@@ -2,7 +2,6 @@ Nomenclaturas de variáveis:
   - Evite diminutivos
   - Evite nomes genéricos (data, response, list, args, params)
 
-
 Booleanos: 
   - Nomear variaveis booleanas como se fossem uma pergunta. (is, does, has)
     Ex: const isUserOnMajority = true
@@ -23,3 +22,7 @@ Condicionais:
   - Procure escrever variaveis de uma forma em que o resultado seja o contrário do que deveria ser
   - Evite utilizar else, procure utilizar early return
   - Evite sempre que possível condicionais aninhadas
+
+Parâmetros e desestruturação:
+  - Procure receber e enviar parametros nomeados
+  - Procure receber objetos a multiplos parametros
