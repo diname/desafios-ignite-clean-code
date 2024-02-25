@@ -9,3 +9,8 @@ Booleanos:
       --> Neste caso estamos validando se o usuário é maior de idade
 
   - Evitar variaveis genéricas como (loading, disabled, data, fetching, list)
+
+Causa e efeito:
+
+  - Criar o nome da variavel com base na causa e não no efeito que ela poderá ter.
+  Ex: Caso eu tenha que desabilitar um botão, não será necessário nomear como isButtonDisabled, o melhor será colocar como isFormSubmitting, por conta de ser uma causa, a causa é o formulário está enviando os dados, a consequencia será o botão ficar desabilitado.
