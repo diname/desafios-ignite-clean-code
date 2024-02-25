@@ -1,4 +1,4 @@
-const listOfCategories = [
+const listOfUserCategories = [
   {
     title: 'User',
     followers: 5
@@ -38,7 +38,7 @@ export default async function getGithubUserByUsername(req, res) {
 
   const githubUser = await githubResponseUser.json()
 
-  const orderedCategoryList = listOfCategories.sort(
+  const orderedCategoryList = listOfUserCategories.sort(
     (a, b) => b.followers - a.followers
   )
 
