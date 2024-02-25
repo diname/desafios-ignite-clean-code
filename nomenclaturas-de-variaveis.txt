@@ -15,5 +15,11 @@ Causa e efeito:
   - Criar o nome da variavel com base na causa e não no efeito que ela poderá ter.
   Ex: Caso eu tenha que desabilitar um botão, não será necessário nomear como isButtonDisabled, o melhor será colocar como isFormSubmitting, por conta de ser uma causa, a causa é o formulário está enviando os dados, a consequencia será o botão ficar desabilitado.
 
-  Inglês:
+Inglês:
   - Código (variaveis, funções), tabelas do banco de dados precisam ser escritos em inglês
+
+Condicionais:
+  - Evite sempre que possível negações (!), por serem mais dificeis de serem lidas
+  - Procure escrever variaveis de uma forma em que o resultado seja o contrário do que deveria ser
+  - Evite utilizar else, procure utilizar early return
+  - Evite sempre que possível condicionais aninhadas
