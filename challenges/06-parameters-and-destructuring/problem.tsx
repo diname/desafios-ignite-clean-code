@@ -1,11 +1,11 @@
-function UpdateUserRoute(body, params) {
-  UpdateUserController(body, params)
+function UpdateUserRouteProblem(body, params) {
+  UpdateUserControllerProblem(body, params)
 }
 
-function UpdateUserController(data, params) {
-  UserRepository.update(data, params)
+function UpdateUserControllerProblem(data, params) {
+  UserRepositoryProblem.update(data, params)
 }
 
-const UserRepository = {
+const UserRepositoryProblem = {
   update: (data, params) => {}
 }
